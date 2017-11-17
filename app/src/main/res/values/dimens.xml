@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="default_margin">8dp</dimen>
+
+    <dimen name="card_view_elevation">2dp</dimen>
+    <dimen name="card_view_corner_radius">12dp</dimen>
+
+    <dimen name="card_view_product_item_size">272dp</dimen>
+    <dimen name="card_view_product_item_margin">16dp</dimen>
+
+    <dimen name="shop_item_padding">4dp</dimen>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="retryCallback"
+            type="ru.snatcher.stoket.ui.common.RetryCallback" />
+
+        <variable
+            name="resource"
+            type="ru.snatcher.stoket.data.vo.Resource" />
+    </data>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:refresh_listener="@{retryCallback}"
+        app:refreshing="@{resource.status}">
+
+        <include
+            android:id="@+id/recycler_shops_list"
+            layout="@layout/recycler_list" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+</layout>

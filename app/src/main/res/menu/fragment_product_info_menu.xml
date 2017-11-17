@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_chat_to_shop"
+        android:icon="@drawable/ic_chat_black_24dp"
+        android:title="@string/fragment_main_call_to_shop"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_call_to_shop"
+        android:icon="@drawable/ic_call_black_24dp"
+        android:title="@string/fragment_main_call_to_shop"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_shop_info"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/fragment_main_shop_info"
+        app:showAsAction="ifRoom" />
+</menu>

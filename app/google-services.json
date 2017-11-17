@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "479957754241",
+    "firebase_url": "https://stoket-b58d3.firebaseio.com",
+    "project_id": "stoket-b58d3",
+    "storage_bucket": "stoket-b58d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479957754241:android:0a5ba2f6145c965e",
+        "android_client_info": {
+          "package_name": "ru.snatcher.stoket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479957754241-aisvgsm35dd0mpdsjqtk3uoaj0df91j1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.snatcher.stoket",
+            "certificate_hash": "a96c3d33056b0459f076c220046697674a8701e5"
+          }
+        },
+        {
+          "client_id": "479957754241-q0u7s5paiof4viu8lbd06i08t9ao3u00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARw3f1PdXs8Cuxi0SGygHSCNwrgOZEwRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479957754241-q0u7s5paiof4viu8lbd06i08t9ao3u00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

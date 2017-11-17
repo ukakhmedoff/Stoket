@@ -1,0 +1,40 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.google.com' }
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.0-beta3'
+
+        classpath 'com.google.gms:google-services:3.1.0'
+    }
+}
+
+ext {
+    arch_version = "1.0.0-alpha9"
+    support_version = "26.0.2"
+    dagger_version = "2.11-rc2"
+    junit_version = "4.12"
+    espresso_version = "2.2.2"
+    retrofit_version = "2.2.0"
+    mockwebserver_version = "3.6.0"
+    apache_commons_version = "2.5"
+    mockito_version = "2.7.19"
+    constraint_layout_version = "1.0.2"
+    glide_version = "4.0.0"
+    google_service = "11.2.0"
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        mavenCentral()
+        maven { url 'https://maven.google.com' }
+        maven { url "https://jitpack.io" }
+
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

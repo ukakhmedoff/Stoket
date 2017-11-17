@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name" translatable="false">Stoket</string>
+
+    <string name="image_url" formatted="false" translatable="false">http://stoket.ru/img/%s/%s/%s</string>
+    <string name="image_url_shop" formatted="false" translatable="false">http://stoket.ru/img/%s/%s/small_400.jpg</string>
+    <string name="shop_logo_url" formatted="false" translatable="false">http://stoket.ru/img/%s/%s</string>
+
+    <string name="product_name" formatted="false" translatable="false">%s %s</string>
+    <string name="product_price" formatted="false">%s roubles</string>
+
+    <string name="navigation_bar_item_home">Home</string>
+    <string name="navigation_bar_item_shops">Shops</string>
+    <string name="navigation_bar_item_shopping_basket">Shopping Basket</string>
+
+    <string name="navigation_filter_drawer_price_min">Min price</string>
+    <string name="navigation_filter_drawer_price_max">Max price</string>
+    <string name="navigation_filter_drawer_apply">Apply</string>
+
+    <string name="shops_list">List</string>
+    <string name="shops_map">Map</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="fragment_main_filters_open">Filters open</string>
+    <string name="fragment_main_call_to_shop">Call to shop</string>
+    <string name="fragment_main_show_on_map">Show on map</string>
+    <string name="product">Product</string>
+    <string name="fragment_main_shop_info">Shop</string>
+
+    <string name="women_shop">Women\'s store</string>
+    <string name="men_shop">Men\'s store</string>
+    <string name="navigation_filter_drawer_cancel">Cancel</string>
+    <string name="choose_gender">Choose your gender</string>
+
+    <string name="add_to_favourite">Add to favourite</string>
+    <string name="delete_from_favourite">Delete from favourite</string>
+    <string name="navigation_bar_item_shop">Shop</string>
+    <string name="brands_filter">Brand</string>
+    <string name="types_filter">Types</string>
+
+
+    <string-array name="genders">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>

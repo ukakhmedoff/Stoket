@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="product"
+            type="ru.snatcher.stoket.data.vo.Product" />
+    </data>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="136dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="fitCenter"
+        app:imageUrlShopInfo="@{@string/image_url_shop(product.shop.id, product.id)}" />
+</layout>
